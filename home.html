@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body style="font-family: 'Roboto', sans-serif; background-color: #f4f4f4; margin: 0; padding: 0;">
+    <div style="max-width: 800px; margin: 20px auto; padding: 30px; background: white; border-radius: 8px; box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);">
+        <h1 style="text-align: center; color: #333;">Home Screen</h1>
+        <h2 style="text-align: center; color: #555;">Categories</h2>
+        <div style="display: flex; justify-content: space-between; flex-wrap: wrap; margin-top: 20px;">
+            <a href="category.html?category=food" style="flex: 1 1 calc(45% - 20px); margin: 10px; padding: 20px; background-color: #fff; border-radius: 8px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); text-decoration: none; color: #333; text-align: center; transition: transform 0.2s; border: 2px solid #e21b70;" 
+                onmouseover="this.style.transform='scale(1.05)';" 
+                onmouseout="this.style.transform='scale(1)';">
+                <h3 style="margin: 0; color: #e21b70;">Food</h3>
+                <p>Explore various restaurants and cuisines.</p>
+            </a>
+            <a href="category.html?category=healthcare" style="flex: 1 1 calc(45% - 20px); margin: 10px; padding: 20px; background-color: #fff; border-radius: 8px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); text-decoration: none; color: #333; text-align: center; transition: transform 0.2s; border: 2px solid #e21b70;" 
+                onmouseover="this.style.transform='scale(1.05)';" 
+                onmouseout="this.style.transform='scale(1)';">
+                <h3 style="margin: 0; color: #e21b70;">Healthcare</h3>
+                <p>Find clinics, hospitals, and specialists.</p>
+            </a>
+            <a href="category.html?category=hotels" style="flex: 1 1 calc(45% - 20px); margin: 10px; padding: 20px; background-color: #fff; border-radius: 8px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); text-decoration: none; color: #333; text-align: center; transition: transform 0.2s; border: 2px solid #e21b70;" 
+                onmouseover="this.style.transform='scale(1.05)';" 
+                onmouseout="this.style.transform='scale(1)';">
+                <h3 style="margin: 0; color: #e21b70;">Hotels</h3>
+                <p>Discover the best hotels in your area.</p>
+            </a>
+            <a href="category.html?category=education" style="flex: 1 1 calc(45% - 20px); margin: 10px; padding: 20px; background-color: #fff; border-radius: 8px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); text-decoration: none; color: #333; text-align: center; transition: transform 0.2s; border: 2px solid #e21b70;" 
+                onmouseover="this.style.transform='scale(1.05)';" 
+                onmouseout="this.style.transform='scale(1)';">
+                <h3 style="margin: 0; color: #e21b70;">Education</h3>
+                <p>Search for universities and schools.</p>
+            </a>
+        </div>
+        <a href="profile.html" style="display: inline-block; padding: 10px 15px; background-color: #e21b70; color: white; text-decoration: none; border-radius: 5px; text-align: center; margin-top: 20px; transition: background-color 0.3s;" 
+            onmouseover="this.style.backgroundColor='#c7165f';" 
+            onmouseout="this.style.backgroundColor='#e21b70';">
+            My Profile
+        </a>
+        <button id="logoutButton" style="display: block; width: 100%; padding: 10px 15px; background-color: #e21b70; color: white; border: none; border-radius: 5px; cursor: pointer; margin-top: 10px; font-size: 16px; transition: background-color 0.3s;" 
+            onmouseover="this.style.backgroundColor='#c7165f';" 
+            onmouseout="this.style.backgroundColor='#e21b70';">
+            Logout
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

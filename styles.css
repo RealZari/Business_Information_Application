@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif; /* Using a modern font */
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #555; /* More subtle text color */
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s; /* Smooth hover effect */
+}
+
+.container:hover {
+    transform: translateY(-2px); /* Subtle lift effect on hover */
+}
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold; /* Bold labels for better visibility */
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 15px; /* Increased padding for comfort */
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px; /* Increased font size */
+    transition: border-color 0.3s; /* Smooth transition for focus */
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #e21b70; /* Focus border color */
+    outline: none; /* Remove outline on focus */
+}
+
+button {
+    width: 100%;
+    padding: 15px; /* Increased padding for buttons */
+    background: #e21b70; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; /* Increased font size for buttons */
+    transition: background 0.3s; /* Smooth transition for hover effect */
+}
+
+button:hover {
+    background: #c7165f; /* Darker shade on hover */
+}
+
+p {
+    text-align: center;
+}
+
+.business-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Space between items */
+}
+
+.business-item {
+    background: #f9f9f9; /* Light background for business items */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    flex: 1 1 calc(30% - 20px); /* Adjust width for responsive layout */
+    transition: transform 0.2s; /* Smooth hover effect */
+}
+
+.business-item:hover {
+    transform: translateY(-3px); /* Subtle lift effect on hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Shadow effect on hover */
+}
+
+.filters {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; /* Space below filters */
+}
+
+.filter {
+    flex: 1;
+    margin-right: 10px; /* Space between filters */
+}
+
+.filter:last-child {
+    margin-right: 0; /* No margin for the last filter */
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #e21b70;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px 0;
+    transition: background 0.3s; /* Smooth transition for hover effect */
+}
+
+.button:hover {
+    background-color: #c7165f; /* Darker shade on hover */
+}

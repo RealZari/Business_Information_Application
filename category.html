@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="categoryTitle">Category</h1>
+        <div class="filters">
+            <select id="locationFilter">
+                <option value="">Location</option>
+                <option value="city1">City 1</option>
+                <option value="city2">City 2</option>
+            </select>
+            <select id="popularityFilter">
+                <option value="">Popularity</option>
+                <option value="popular">Popular</option>
+                <option value="regular">Regular</option>
+            </select>
+        </div>
+        <div id="businessList" class="business-list">
+            <!-- Business items will be added here dynamically -->
+        </div>
+        <a href="add-business.html" class="button">Add Business</a>
+        <button id="logoutButton">Logout</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

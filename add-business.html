@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Business</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Add New Business</h1>
+        <form id="addBusinessForm">
+            <input type="text" id="businessName" placeholder="Business Name" required>
+            <input type="text" id="businessAddress" placeholder="Address" required>
+            <input type="tel" id="businessPhone" placeholder="Phone Number" required>
+            <select id="businessCategory" required>
+                <option value="">Select Category</option>
+                <option value="food">Food</option>
+                <option value="healthcare">Healthcare</option>
+                <option value="hotels">Hotels</option>
+                <option value="education">Education</option>
+            </select>
+            <textarea id="businessDescription" placeholder="Description" required></textarea>
+            <input type="file" id="businessPhotos" multiple>
+            <button type="submit">Submit</button>
+        </form>
+        <button id="logoutButton">Logout</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
